@@ -1,0 +1,40 @@
+﻿        .TopMenu {
+            display: none;
+        }
+
+        #patientForm {
+            height: 207px;
+        }
+
+
+        a.skypeLink {
+            color: blue;
+        }
+
+        .mid {
+            text-align: center;
+        }
+
+        #searchWrapper {
+            height: 40px;
+        }
+
+            #searchWrapper img {
+                vertical-align: middle;
+                height: 18px;
+                margin-left: 5px;
+            }
+
+        /*td {
+            padding-left: 15px;
+            padding-right: 15px;
+        }*/
+
+        .popover {
+            width: 250px;
+            height: 250px;
+        }
+
+        .dataTable {
+            display: none;
+        }

@@ -1,0 +1,55 @@
+﻿@model RemoteAdvisor.Models.DashboardViewModel
+
+@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Dashboard</h2>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Subject
+        </th>
+        <th>
+            Customer
+        </th>
+        <th>
+            Join Link
+        </th>
+        <th>
+            Create Date
+        </th>
+        <th>
+            Active
+        </th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var item in Model.Sessions)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Subject)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Customer)
+            </td>
+            <td>
+                <a href="@item.JoinUrl" target="_blank">Join with Skype</a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Active)
+            </td>
+            <td>
+                @Html.ActionLink("Join", "Join", new { identifier = item.SessionId })
+            </td>
+        </tr>
+    }
+
+</table>

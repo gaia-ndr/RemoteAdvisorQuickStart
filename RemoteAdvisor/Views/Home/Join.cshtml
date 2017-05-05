@@ -1,0 +1,80 @@
+﻿@model RemoteAdvisor.Models.JoinViewModel
+@{
+    ViewBag.Title = "Join";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/Main.css" rel="stylesheet">
+<link href="~/Content/join.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<div id="commChannel" style="position: absolute; left: 0; bottom: 0; height: 10px; width: 100%; display: none; color: white"></div>
+    <div class="visit-body">
+    <div class="smallParticipants">
+        <div class="smallParticipantsVideo" id="oVideo0" style="left: 5px"></div>
+        <div class="smallParticipantsVideo" id="oVideo2" style="left: 160px"></div>
+        <div class="smallParticipantsVideo" id="oVideo3" style="left: 315px"></div>
+        <div class="smallParticipantsVideo" id="oVideo4" style="left: 470px"></div>
+        <div class="smallParticipantsVideo" id="oVideo5" style="left: 625px"></div>
+        <div class="smallParticipantsVideo" id="oVideo6" style="left: 780px"></div>
+    </div>
+    <div class="smallParticipantsNames">
+        <div class="smallParticipantsName" id="oVideo0Name" style="left: 5px"></div>
+        <div class="smallParticipantsName" id="oVideo2Name" style="left: 160px"></div>
+        <div class="smallParticipantsName" id="oVideo3Name" style="left: 315px"></div>
+        <div class="smallParticipantsName" id="oVideo4Name" style="left: 470px"></div>
+        <div class="smallParticipantsName" id="oVideo5Name" style="left: 625px"></div>
+        <div class="smallParticipantsName" id="oVideo6Name" style="left: 780px"></div>
+    </div>
+    <div class="largeParticpant">
+        <div id="videoControl" style="background-color: transparent; width: 800px; height: 514px;">
+            <div id="oVideo1" style="background-color: transparent; width: 800px; height: 514px; z-index: 100; display: none;"></div>
+        </div>
+    </div>
+        <div class="callControls">
+            <div class="ccToolbar">
+                <div class="control-container" style="width: 250px; margin-left:auto;margin-right:auto; height: 35px">
+                    <div id="btn-camera" class="control-button">
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle btn-horizontal" type="button" id="menuCamera" data-toggle="dropdown"><span class="glyphicon glyphicon-camera tim-menu"></span></button>
+                            <ul id="cams" class="dropdown-menu" role="menu" aria-labelledby="menuCamera"></ul>
+                        </div>
+                    </div>
+                    <div id="btn-microphone" class="control-button">
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle btn-horizontal" type="button" id="menuMicrophone" data-toggle="dropdown"><span class="glyphicon glyphicon-headphones tim-menu"></span></button>
+                            <ul id="mics" class="dropdown-menu" role="menu" aria-labelledby="menuMicrophone"></ul>
+                        </div>
+                    </div>
+                    <div id="btn-speaker" class="control-button">
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle btn-horizontal" type="button" id="menuSpeaker" data-toggle="dropdown"><span class="glyphicon glyphicon-volume-up tim-menu"></span></button>
+                            <ul id="spks" class="dropdown-menu" role="menu" aria-labelledby="menuSpeaker"></ul>
+                        </div>
+                    </div>
+                    <div id="btn-power" class="control-button">
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle btn-horizontal" title="Log-off" type="button" id="menuHangup" data-toggle="dropdown"><span class="glyphicon glyphicon-off tim-menu"></span></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+
+@Html.HiddenFor(m => m.SessionId, new { @id = "Sessionid" })
+@Html.HiddenFor(m => m.DiscoverUri, new { @id = "DiscoverUri" })
+@Html.HiddenFor(m => m.JoinUrl, new { @id = "JoinUrl" })
+@Html.HiddenFor(m => m.AnonymousToken, new { @id = "AnonymousToken" })
+@Html.HiddenFor(m => m.Customer, new { @id = "Customer" })
+@Html.HiddenFor(m => m.Subject, new { @id = "Subject" })
+@Html.HiddenFor(m => m.OnlineMeetingUri, new { @id = "OnlineMeetingUri" })
+
+@section Scripts
+{
+<script src="~/Scripts/App/config.js"></script>
+<script src="//swx.cdn.skype.com/shared/v/1.2.15/SkypeBootstrap.min.js"></script>
+<script src="~/Scripts/App/Cookies.js"></script>
+<script src="~/Scripts/App/Join.js?id=2"></script>
+<script src="~/Scripts/App/Devices.js?id=2"></script>
+}
