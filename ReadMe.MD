@@ -18,6 +18,8 @@ Key Views used in the application
 ### Join with Edge ###
 <img src="https://raw.githubusercontent.com/devwheel/RemoteAdvisorQuickStart/master/RemoteAdvisor/Media/image3.jpg" width=600/>
 
+## Configuration Video on YouTube ##
+[![Getting Started Video](http://img.youtube.com/vi/rHc5U9VpehU/0.jpg)](http://www.youtube.com/watch?v=rHc5U9VpehU)
 
 To Install and get running follow the below steps:
 1) Right-Click on solution, and choose restore, Nuget Packages
