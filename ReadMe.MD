@@ -21,9 +21,12 @@ Key Views used in the application
 ## Configuration Video on YouTube ##
 [![Getting Started Video](http://img.youtube.com/vi/rHc5U9VpehU/0.jpg)](http://www.youtube.com/watch?v=rHc5U9VpehU)
 
+## Configuration Notes ##
 To Install and get running follow the below steps:
 1) Right-Click on solution, and choose restore, Nuget Packages
-2) Right-Click on solution, Publish to an Azure Web Application
-3) Create Azure Active Directory for your Office 365 tenant
+2) Create an Azure SQL Database and get the connection string added to the web.config
+3) Create an Azure Website and download the publish profile 
+4) Right-Click on solution, Publish to an Azure Web Application
+5) Create Azure Active Directory for your Office 365 tenant
 	Setup Endpoint (see sdk)
-4) Modify Web Config.... with app information
+6) Modify Web Config.... with app information
