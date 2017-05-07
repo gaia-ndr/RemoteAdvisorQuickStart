@@ -10,16 +10,16 @@ The pattern in the solution is geared around business-to-consumer scenarios wher
 Key Views used in the application
 <br/>
 ### Session Queue ###
-<img src="https://raw.githubusercontent.com/devwheel/RemoteAdvisorQuickStart/master/RemoteAdvisor/Media/Image1.jpg" width=600/>
+<img src="https://remote-advisor.azurewebsites.net/media/image1.jpg" width=600/>
 
 ### Create Session ###
-<img src="https://raw.githubusercontent.com/devwheel/RemoteAdvisorQuickStart/master/RemoteAdvisor/Media/image2.jpg" width=600/>
+<img src="https://remote-advisor.azurewebsites.net/media/image2.jpg" width=600/>
 
 ### Join with Edge ###
-<img src="https://raw.githubusercontent.com/devwheel/RemoteAdvisorQuickStart/master/RemoteAdvisor/Media/image3.jpg" width=600/>
+<img src="https://remote-advisor.azurewebsites.net/media/image3.jpg" width=600/>
 
 ## Configuration Video on YouTube ##
-[![Getting Started Video](http://img.youtube.com/vi/rHc5U9VpehU/0.jpg)](http://www.youtube.com/watch?v=rHc5U9VpehU)
+[![Getting Started Video](https://remote-advisor.azurewebsites.net/media/image4.jpg)](http://www.youtube.com/watch?v=rHc5U9VpehU)
 
 ## Configuration Notes ##
 To Install and get running follow the below steps:
