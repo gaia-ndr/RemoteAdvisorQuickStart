@@ -19,8 +19,8 @@ Key Views used in the application
 >### Join with Edge ###
 ><img src="https://remote-advisor.azurewebsites.net/media/image3.jpg?v=1" width=600/>
 
-## Configuration Video on YouTube ##
-[![Getting Started Video](https://remote-advisor.azurewebsites.net/media/image4.jpg?v=1)](http://www.youtube.com/watch?v=rHc5U9VpehU)
+>### Configuration Video on YouTube ###
+>[![Getting Started Video](https://remote-advisor.azurewebsites.net/media/image4.jpg?v=1)](http://www.youtube.com/watch?v=rHc5U9VpehU)
 
 ## Configuration Notes ##
 To Install and get running follow the below steps:
