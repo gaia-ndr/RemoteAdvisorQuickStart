@@ -181,6 +181,7 @@
     <Content Include="Media\Image1.jpg" />
     <Content Include="Media\image2.jpg" />
     <Content Include="Media\image3.jpg" />
+    <Content Include="Media\image4.jpg" />
     <Content Include="ReadMe.txt" />
     <Content Include="Scripts\App\config.js" />
     <Content Include="Scripts\App\Cookies.js" />
