@@ -1,6 +1,7 @@
 # Overview #
 The remote advisor sample is a simple way to integrate Skype for Business Video into your website.
 The pattern in the solution is geared around business-to-consumer scenarios where anonymous join would typically be used.
+Some scenarios that come to mind are Telehealth and Financial Services where video could be used.
 
 ### The included solution will use: ###
 * Azure Website
